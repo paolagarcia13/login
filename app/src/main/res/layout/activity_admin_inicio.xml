@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdminInicio">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:src="@drawable/parking"
+        android:layout_marginLeft="40dp"/>
+    <ImageButton
+        android:id="@+id/reUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="418dp"
+        app:srcCompat="@drawable/reusu" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="registrar Usuario"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="4dp"
+        android:textSize="12sp"/>
+    <ImageButton
+        android:id="@+id/lstUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:background="@color/white"
+        android:layout_marginTop="409dp"
+        app:srcCompat="@drawable/lstusu" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lista Usuarios"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="12sp"/>
+    <ImageButton
+        android:id="@+id/lstCl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:background="@color/white"
+        android:layout_marginTop="408dp"
+        app:srcCompat="@drawable/lst" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lista Clientes"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="220dp"
+        android:textSize="12sp"/>
+    <ImageButton
+        android:id="@+id/lstVentas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:background="@color/white"
+        android:layout_marginTop="408dp"
+        app:srcCompat="@drawable/ventas" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ventas"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="320dp"
+        android:textSize="12sp"/>
+</RelativeLayout>

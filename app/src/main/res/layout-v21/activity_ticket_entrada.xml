@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facturacion"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/pl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placa"
+        android:textSize="18sp"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/Eplaca"
+        android:layout_width="200dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese placa del vehículo"
+        android:layout_alignBaseline="@id/pl"
+        android:layout_marginLeft="130dp" />
+
+    <ImageButton
+        android:id="@+id/buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pl"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="319dp"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+
+    <TextView
+        android:id="@+id/textFeIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha Ingreso"
+        android:textSize="16sp"
+        android:layout_marginTop="125dp"/>
+    <EditText
+        android:id="@+id/fechaInE"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Ingreso"
+        android:layout_alignBaseline="@+id/textFeIn"
+        android:layout_marginLeft="130dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/textHoIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora Ingreso"
+        android:textSize="16sp"
+        android:layout_marginTop="165dp"/>
+    <EditText
+        android:id="@+id/horaInE"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Hora de Ingreso "
+        android:layout_alignBaseline="@+id/textHoIn"
+        android:layout_marginLeft="130dp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/TPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarifa x Minuto"
+        android:textSize="16sp"
+        android:layout_marginTop="210dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTarifa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:hint="seleccione Rol"
+        android:layout_alignBaseline="@+id/TPM"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="130dp" />
+    <TextView
+        android:id="@+id/textNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="16sp"
+        android:layout_marginTop="250dp"/>
+    <EditText
+        android:id="@+id/Nombre"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del cliente"
+        android:layout_alignBaseline="@+id/textNombre"
+        android:layout_marginLeft="130dp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textSize="16sp"
+        android:layout_marginTop="290dp"/>
+    <EditText
+        android:id="@+id/Apellido"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textApellido"
+        android:layout_marginLeft="130dp"
+        android:hint="Apellido del cliente"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnITE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:text="Imprimir Ticket Entrada"/>
+
+    <ImageButton
+        android:id="@+id/cerrarTE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
+</RelativeLayout>

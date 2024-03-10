@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facturacion"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/placa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placa"
+        android:textSize="18sp"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/EplacaS"
+        android:layout_width="200dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese placa del vehículo"
+        android:layout_alignBaseline="@id/placa"
+        android:layout_marginLeft="130dp" />
+
+
+    <TextView
+        android:id="@+id/textFeSa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha Salida"
+        android:textSize="16sp"
+        android:layout_marginTop="125dp"/>
+    <EditText
+        android:id="@+id/fechaInS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Salida"
+        android:layout_alignBaseline="@+id/textFeSa"
+        android:layout_marginLeft="130dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/textHoSa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora Salida"
+        android:textSize="16sp"
+        android:layout_marginTop="165dp"/>
+    <EditText
+        android:id="@+id/horaInS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Hora de Salida "
+        android:layout_alignBaseline="@+id/textHoSa"
+        android:layout_marginLeft="130dp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="16sp"
+        android:layout_marginTop="210dp"/>
+    <EditText
+        android:id="@+id/NombreS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del cliente"
+        android:layout_alignBaseline="@+id/textNombre"
+        android:layout_marginLeft="130dp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textSize="16sp"
+        android:layout_marginTop="250dp"/>
+    <EditText
+        android:id="@+id/ApellidoS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Apellido del cliente"
+        android:layout_alignBaseline="@+id/textApellido"
+        android:layout_marginLeft="130dp"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/Valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Total"
+        android:textSize="16sp"
+        android:layout_marginTop="290dp"/>
+    <EditText
+        android:id="@+id/ValorT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="valor Total"
+        android:layout_alignBaseline="@+id/Valor"
+        android:layout_marginLeft="130dp"
+        android:textSize="17sp" />
+    <Button
+        android:id="@+id/btnITS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:text="Imprimir Ticket Salida"/>
+
+    <ImageButton
+        android:id="@+id/buscarS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/placa"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="319dp"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+    <ImageButton
+        android:id="@+id/cerrarTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
+</RelativeLayout>

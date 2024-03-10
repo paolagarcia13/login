@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioFac">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facturacion"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/parking"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/btnRegCl"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Registrar Cliente"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnTE"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="140dp"
+        android:text="Ticket Entrada"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnTS"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Ticket Salida"
+        android:layout_marginLeft="280dp"
+        android:textSize="12sp" />
+
+</RelativeLayout>
